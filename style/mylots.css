@@ -7,9 +7,11 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 button {
     font-family: 'Roboto', sans-serif;
 }
+
 header {
     padding: 10px 0;
     color: #1f2123;
@@ -17,27 +19,32 @@ header {
     -moz-box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
     box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
 }
+
 nav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     font-size: 16px;
-    height: 66px;
 }
+
 img {
     height: 66px;
 }
+
 .nav_in_1 {
+    width: 60%;
     display: flex;
     align-items: center;
 }
+
 .nav_in_2 {
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav_in_2 button{
+
+.nav_in_2 button {
     padding: 5px 19px;
     font-size: 16px;
     background-color: white;
@@ -47,17 +54,65 @@ img {
     border-radius: 4px;
     transition: all .2s;
 }
+
 .nav_in_2 button:hover {
     border: 1px solid white;
     background-color: #4b3e86;
     color: white;
 }
+
 nav a {
     margin-right: 40px;
     text-decoration: none;
     color: #1f2123;
     transition: all .2s;
 }
+
 nav a:hover {
     color: #6455a8;
+}
+
+/* main */
+main {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px olive;
+}
+.create_lot p {
+    font-size: 15px;
+    margin-top: 25px;
+    width: 100%;
+}
+.create_lot_img i {
+    font-size: 60px;
+}
+.create_lot_img span {
+    text-align:center;
+    margin: 0;
+}
+.create_lot a {
+    color: black;
+}
+.create_lot_img  {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 10px;
+    height: 200px;
+    color: black;
+    border: 1px dotted black;
+    transition: all .3s;
+}
+.create_lot_img:hover {
+    color: #4b3e86;
 }

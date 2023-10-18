@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*:focus {
+    outline: none;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    color: #1f2123;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
+    box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 16px;
+}
+
+img {
+    height: 66px;
+}
+
+.nav_in_1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_in_2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_in_2 button {
+    padding: 5px 19px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+.nav_in_2 button:hover {
+    border: 1px solid white;
+    background-color: #4b3e86;
+    color: white;
+}
+
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #1f2123;
+    transition: all .2s;
+}
+
+nav a:hover {
+    color: #6455a8;
+}
+
+/* main */
+main {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main form {
+    display: flex;
+}
+
+.users {
+    border: 1px solid red;
+    width: 30%;
+}
+.example_1 {
+    font-size: 22px;
+    padding: 10px 0;
+    border-bottom: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text_vivod {
+    border: 1px solid red;
+    width: 70%;
+}
+
+.text_vivod_title {
+    border: 1px solid red;
+    font-size: 14px;
+    padding: 10px 7px;
+}
+
+.text_vivod_input {
+    display: flex;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 10px 7px;
+    width: 85%;
+    border: 0px;
+    background-color: transparent;
+    border: 0px solid;
+    text-align: start;
+    height: 200px;
+}
+
+.text_vivod_input_but {
+    width: 15%;
+}
+
+.text_vivod_input_but {
+    padding: 10px 7px;
+}
+
+.text_vivod_input_but button {
+    padding: 10px 7px;
+}
+
+.text_vivod_input_but button {
+    font-size: 18px;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    transition: ease .3s;
+}
+
+.text_vivod_input_but button:hover {
+    color: #ff7866;
+}

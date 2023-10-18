@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    color: #1f2123;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
+    box-shadow: 0px 6px 12px 0px rgba(31, 33, 35, 0.11);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 16px;
+}
+
+img {
+    height: 66px;
+}
+
+.nav_in_1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_in_2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_in_2 button {
+    padding: 5px 19px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+.nav_in_2 button:hover {
+    border: 1px solid white;
+    background-color: #4b3e86;
+    color: white;
+}
+
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #1f2123;
+    transition: all .2s;
+}
+
+nav a:hover {
+    color: #6455a8;
+}
+
+/* main */
+main {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.katalog_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.katalog_info_filter {
+    background-color: #e0e4ff;
+    color: #322476;
+    width: 13%;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.katalog_info_vivod {
+    width: 82%;
+    border: 1px solid black;
+    padding: 0px 0px;
+}
+
+label {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    font-size: 15px;
+}
+.katalog_info_filter form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.katalog_info_filter form span {
+    display: flex;
+    align-items: center;
+}
+.katalog_info_filter p {
+    margin-bottom: 5px;
+}
+.katalog_info_filter form span input {
+    margin-right: 5px;
+}
+.katalog_info_vivod_form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.lot_vivod {
+    border: 1px solid black;
+    width: 180px;
+    margin: 10px 10px;
+}
+.lot_vivod_img {
+    border: 1px solid black;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+.lot_vivod_title {
+    color: #5a538d;
+    margin: 10px 0;
+    font-size: 15px;
+}

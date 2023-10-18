@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/katalog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav_in_1">
+                <img src="./image/facebook_cover_photo_1.png" alt="">
+            </div>
+            <div class="nav_in_2">
+                <a href="./katalog.html">Каталог</a>
+                <a href="./mylots.html">Мои лоты</a>
+                <a href="./mymessage.html">Мои сообщения</a>
+                <button>Выйти</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="katalog_info container">
+            <div class="katalog_info_filter">
+                <form action="">
+                    <p>Состояние</p>
+                    <span><input onclick="foo_1(this)" type="radio" name="Condish" id="Good"><label
+                            for="Good">Хорошо</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Condish" id="Normal"><label
+                            for="Normal">Нормально</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Condish" id="Bad"><label
+                            for="Bad">Плохо</label></span>
+                </form>
+                <form action="">
+                    <p>Подходит для</p>
+                    <span><input onclick="foo_1(this)" type="radio" name="Suitbl" id="Girl"><label
+                            for="Girl">Девочек</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Suitbl" id="Boy"><label
+                            for="Boy">Мальчиков</label></span>
+                </form>
+                <form action="">
+                    <p>Возрастная группа</p>
+                    <span><input onclick="foo_1(this)" type="radio" name="Age" id="0"><label for="0">0-1</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Age" id="1"><label for="1">1-2</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Age" id="2"><label for="2">3-5</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Age" id="3"><label for="3">6-8</label></span>
+                    <span><input onclick="foo_1(this)" type="radio" name="Age" id="4"><label for="4">9-11</label></span>
+                </form>
+            </div>
+            <div class="katalog_info_vivod">
+                <form action="" class="katalog_info_vivod_form">
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                    <div class="lot_vivod">
+                        <div class="lot_vivod_img"></div>
+                        <p class="lot_vivod_title">Example</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script>
+        let a, b;
+        function foo_1(c) {
+            if (a != c) {
+                b = 0;
+                a = c
+            };
+            b ^= 1;
+            c.checked = b
+        };
+    </script>
+</body>
+
+</html>
