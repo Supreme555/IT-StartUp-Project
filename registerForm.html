@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/registerForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="header_container">
+            <a rel="stylesheet" href="./main.html">ВЫХОД</a>
+            <a rel="stylesheet" href="./loginForm.html">Авторизация</a>
+        </div>
+    </header>
+    <main>
+        <div id="main_container">
+            <div id="main_container_register">
+                <div class="form_txt">Форма регистрации</div>
+                <form action="validation_form/check.php" method="post">
+                    <input type="email" class="form_control" name="login" id="login" placeholder="Введите email">
+                    <input type="text" class="form_control" name="name" id="pass" placeholder="Введите имя">
+                    <input type="password" class="form_control" name="pass" id="pass" placeholder="Введите пароль">
+                    <button class="btn btn_success" type="submit">Зарегистрироватся</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
